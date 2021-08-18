@@ -1,0 +1,31 @@
+#include<stdio.h>
+int fact(int);
+int main(){
+    int num;
+    printf(enter the number to find the factorial);
+    if (num<0)
+    {
+        printf("factorial of negative number is not defined");
+        
+    }
+    else
+    {
+        printf("factorial of %d is %d"&num,fact(int));
+        
+    }
+    return 0;
+    
+}
+ int fact(int num)
+ {
+     if (fact==1)
+     {
+         return 1;
+     }
+     else
+     {
+         
+     
+     return (num*fact(num-1));
+     }
+ }
